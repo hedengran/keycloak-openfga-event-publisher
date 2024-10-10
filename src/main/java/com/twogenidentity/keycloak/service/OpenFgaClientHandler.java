@@ -84,7 +84,7 @@ public class OpenFgaClientHandler {
     }
 
     public String getOpenFgaApiUrl() {
-        return config.get(OPENFGA_API_URL) != null ? config.get(OPENFGA_API_URL) : "http://openfga:8080";
+        return config.get(OPENFGA_API_URL) != null ? config.get(OPENFGA_API_URL) : "http://openfga.openfga.svc.cluster.local:8080";
     }
 
     public String getOpenFgaOpenStoreId() {
